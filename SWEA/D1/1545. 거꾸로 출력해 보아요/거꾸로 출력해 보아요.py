@@ -1,4 +1,5 @@
-n = int(input())
-for i in range(n, -1, -1):
-    print(i, end=' ')
-print()
+T = int(input())
+value = list(range(T+1))
+value.reverse()
+for x in value:
+    print(x, end=' ')
